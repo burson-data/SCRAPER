@@ -281,7 +281,7 @@ with st.sidebar:
 
 
 if menu == "Scrape":
-    st.title("📰 Burson News Scraper - v0.0.2")
+    st.title("📰 Burson News Scraper - v1.0.1")
     st.markdown("Scrape berita berdasarkan **Boolean Keyword** dan input tanggal, lalu simpan ke Excel.")
 
     with st.form("scrape_form"):
@@ -504,5 +504,5 @@ elif menu == "About":
 
 ---
 
-**Made by**: Jay ✨
+**Made by**: Jay and Naomi ✨
 """)
