@@ -307,20 +307,20 @@ if menu == "Scrape":
                 st.dataframe(df)
 
                 # Output to folder
-                #filename = f"hasil_berita_{start_date}_to_{end_date}.xlsx"
-                #df.to_excel(filename, index=False)
-
-                 # === Define output path (desktop, output folder) ===
-                desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
-                output_folder = os.path.join(desktop_path, "output")
-                os.makedirs(output_folder, exist_ok=True)
-
-                # === Create filename and full path ===
                 filename = f"hasil_berita_{start_date}_to_{end_date}.xlsx"
-                file_path = os.path.join(output_folder, filename)
+                df.to_excel(filename, index=False)
 
-                # === Save to file_path ===
-                df.to_excel(file_path, index=False)
+                #  # === Define output path (desktop, output folder) ===
+                # desktop_path = os.path.join(os.path.expanduser("~"), "Desktop")
+                # output_folder = os.path.join(desktop_path, "output")
+                # os.makedirs(output_folder, exist_ok=True)
+
+                # # === Create filename and full path ===
+                # filename = f"hasil_berita_{start_date}_to_{end_date}.xlsx"
+                # file_path = os.path.join(output_folder, filename)
+
+                # # === Save to file_path ===
+                # df.to_excel(file_path, index=False)
 
                 # DL button function
                 with open(filename, "rb") as f:
