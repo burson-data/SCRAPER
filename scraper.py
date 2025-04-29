@@ -502,6 +502,10 @@ elif menu == "About":
 - ✅ Fix error pada format tanggal/waktu
 - ✅ New side menu
 
+**Release Note v1.0.1**
+- ✅ Join ke database media dari google sheets
+- ✅ New queue menu & system
+
 ---
 
 **Made by**: Jay and Naomi ✨
