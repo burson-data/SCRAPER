@@ -12,7 +12,6 @@ import re
 import locale
 import random
 from streamlit_option_menu import option_menu
-from transformers import pipeline
 
 
 
